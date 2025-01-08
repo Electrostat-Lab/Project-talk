@@ -1,0 +1,130 @@
+digraph ProblemSolutionParadigm {
+    // Problem Components
+    subgraph cluster_problem {
+        label="Problem Model";
+        style=filled;
+        color=lightgrey;
+        node [style=filled, color=white];
+        size="10,10"; // Increased dimensions
+
+        problem [label="Problem"];
+        component1 [label="Component 1"];
+        component2 [label="Component 2"];
+        component3 [label="Component 3"];
+        component4 [label="Component 4"];
+        component5 [label="Component 5"];
+
+        problem -> component1;
+        problem -> component2;
+        problem -> component3;
+        problem -> component4;
+        problem -> component5;
+
+        // Generic Set Builder notation for relations among problem components
+        relation [label="R = {(x1, x2, ..., xn) | xi ∈ {Component 1, Component 2, Component 3, Component 4, Component 5}, xi ≠ xj for i ≠ j, 1 ≤ i, j ≤ n}"];
+
+        component1 -> relation [style=dashed];
+        component2 -> relation [style=dashed];
+        component3 -> relation [style=dashed];
+        component4 -> relation [style=dashed];
+        component5 -> relation [style=dashed];
+    }
+
+    // Grouping of Problem Components with common properties
+    subgraph cluster_propertyA {
+        label="Property A";
+        style=filled;
+        color=lightgreen;
+        node [style=filled, color=white];
+
+        component1;
+        component3;
+    }
+
+    subgraph cluster_propertyB {
+        label="Property B";
+        style=filled;
+        color=lightblue;
+        node [style=filled, color=white];
+
+        component2;
+        component4;
+    }
+
+    subgraph cluster_propertyC {
+        label="Property C";
+        style=filled;
+        color=lightcoral;
+        node [style=filled, color=white];
+
+        component5;
+    }
+
+    // Solution Components
+    subgraph cluster_solution {
+        label="Solution Model";
+        style=filled;
+        color=lightyellow;
+        node [style=filled, color=white];
+        size="10,10"; // Increased dimensions
+
+        solution [label="Solution"];
+        solutionComponent1 [label="Solution Component 1"];
+        solutionComponent2 [label="Solution Component 2"];
+        solutionComponent3 [label="Solution Component 3"];
+        solutionComponent4 [label="Solution Component 4"];
+        solutionComponent5 [label="Solution Component 5"];
+
+        solution -> solutionComponent1;
+        solution -> solutionComponent2;
+        solution -> solutionComponent3;
+        solution -> solutionComponent4;
+        solution -> solutionComponent5;
+
+        // Generic Set Builder notation for relations among solution components
+        solution_relation [label="R = {(y1, y2, ..., ym) | yi ∈ {Solution Component 1, Solution Component 2, Solution Component 3, Solution Component 4, Solution Component 5}, yi ≠ yj for i ≠ j, 1 ≤ i, j ≤ m}"];
+
+        solutionComponent1 -> solution_relation [style=dashed];
+        solutionComponent2 -> solution_relation [style=dashed];
+        solutionComponent3 -> solution_relation [style=dashed];
+        solutionComponent4 -> solution_relation [style=dashed];
+        solutionComponent5 -> solution_relation [style=dashed];
+    }
+
+    // Grouping of Solution Components with common properties
+    subgraph cluster_solution_propertyA {
+        label="Solution Property A";
+        style=filled;
+        color=lightcyan;
+        node [style=filled, color=white];
+
+        solutionComponent1;
+        solutionComponent3;
+    }
+
+    subgraph cluster_solution_propertyB {
+        label="Solution Property B";
+        style=filled;
+        color=lavender;
+        node [style=filled, color=white];
+
+        solutionComponent2;
+        solutionComponent4;
+    }
+
+    subgraph cluster_solution_propertyC {
+        label="Solution Property C";
+        style=filled;
+        color=lightgoldenrodyellow;
+        node [style=filled, color=white];
+
+        solutionComponent5;
+    }
+
+    // Mapping between Problem and Solution Components
+    component1 -> solutionComponent1 [label="maps to"];
+    component2 -> solutionComponent2 [label="maps to"];
+    component3 -> solutionComponent3 [label="maps to"];
+    component4 -> solutionComponent4 [label="maps to"];
+    component5 -> solutionComponent5 [label="maps to"];
+}
