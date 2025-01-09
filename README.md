@@ -8,10 +8,34 @@ Essentially, when describing any project for someone for the first time, it requ
 ## Outline:
 1) Defining **a physical model for the problem and its components**.
 2) Defining **a physical model for the solution and its components; such that the solution subset components would map to the problem components based on the function theory**.
-3) Defining **a physical non-mathematical model for the project based on problem definition and analysis**.
-4) Defining **a deployment model for the project for the business and companies domain to be used in advertisements and non-technical conferences based on the SES Framework (System-Entity-Structure Framework)**.
-5) Defining **a discrete mathematical model using the Automata Theory**.
-6) Defining **a hybird automata model for analog-digital systems**.
+3) Defining **a system model for the project for the business and companies domain to be used in advertisements and non-technical conferences based on the SES Framework (System-Entity-Structure Framework)**.
+4) Defining **a discrete mathematical model using the Automata Theory**.
+5) Defining **a hybird automata model for analog-digital systems**.
 
 ### 1) A generic physical model for the problem and its components: 
 
+### 2) A physical model for the solution and its components:
+
+### 3) A system model for the business and companies' domains based on SES-Framework with emphasis on deployment:
+> Copied, by Throsten Pawletta.
+
+**Definition:** The **System Entity Structure (SES)** is a _structural knowledge representation scheme_ introduced by **Zeigler**. It contains knowledge of **decomposition**, **taxonomy**, and  **coupling of a system**. In combination with **a Model Base (MB)**, it supports different concepts for system modeling, investigating design alternatives, reusing good designs, and collaborative modeling. 
+
+Figure 1.6 shows the general procedure model of an **SES/MB-based M&S** according to **Pawletta et al**. Possible configurations of a system or a family of systems are analyzed. That means, basic dynamic components, their relations, and parameter settings are identified. Dynamic components are modeled or implemented as reusable basic systems with _defined input and output interfaces_ and _organized in a MB_. The possible system structures and parameter settings are modeled with an SES, which specifies **formal links to basic systems in the MB**. 
+
+Figure 1.7 shows an example of an SES with associated MB. In the application phase, executable models are generated with **transformation methods** such as **pruning** and **build**. Based on defined objectives, _the pruning method derives a unique system configuration from the set of possible configurations_. The result of pruning is called **Pruned Entity Structure (PES)**. Based on the information in the PES, the build method generates an Executable Model using basic systems from the MB.
+
+**Representation Schema:** An SES is represented by a **directed tree structure**, as illustrated in Fig. 1.7. The different **edges** are related to different **node types**. Each node can define attached variables, also called **attributes**. Real-world or imaginary objects are represented by entity nodes. _Entity attributes represent **properties** of the respective object_. The root and the leaves are always entities. **Relations** between entities are specified by **three types of descriptive nodes**, called **aspect**, **multi-aspect**, and **specialization**. The attributes of descriptive nodes specify relations between their parent node and children nodes or decisions for the pruning process. 
+
+**Relations:** Aspects describe how entities can be decomposed in partial entities. Coupling relations can be specified in a couplings attribute. Multi-aspects describe the decomposition of an entity into entities of the same class. They define an additional attribute, called Number of Replications (numRep). The taxonomy of an entity is described by specialization(s) and concerns admissible variants of an entity. Rules for selecting a variant during pruning can be defined in a selection rule attribute. With the extended procedural knowledge representation according to Pawletta et al., attributes can be dynamically assigned values. For example, coupling relations of a multi-aspect can result dependent on the value of attribute numRep.
+
+**Semantics:** The semantics of the SES is defined by axioms. Types of each node have to follow the axiom alternating mode. Every entity node has to be followed by a 
+descriptive node, and vice versa. A strict hierarchy is needed. In every path of the tree, a name of a node may occur only once. If nodes in different paths have the 
+same name, they need to have the same variables and isomorphic partial trees. This is called uniformity. Nodes on the same level of a hierarchy, called sibling nodes, have to be valid brothers, meaning that sibling nodes must not have the same name. The axiom of attached variables implies that a node must not have variables of the same name. The axiom of inheritance implies that during pruning, the parent and the child of a specialization combine their variables, aspects, and specializations. The configurations modeled in an SES tree can be delimited by selection constraints and semantic conditions.
+
+> [!NOTE]
+> There are numerous additional SES concepts, such as using the SES as a general ontology for data modeling [18], the specification of abstraction hierarchies and time granularities for families of systems [19], interfaces for automated, reactive pruning [15], methods for the pruning of deep hierarchies of certain node type combinations [16], or the combination with performance metrics to evaluate and select the best possible system configurations.
+
+### 4) A discrete mathematical model using the Automata Theory:
+
+### 5) A hybird automata model for analog-digital systems (i.e., mixed discrete and continuous systems):
