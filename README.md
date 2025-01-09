@@ -17,7 +17,7 @@ Essentially, when describing any project for someone for the first time, it requ
 ### 2) A physical model for the solution and its components:
 
 ### 3) A system model for the business and companies' domains based on SES-Framework with emphasis on deployment:
-> Copied, by Throsten Pawletta.
+> Copied, by Thorsten Pawletta.
 
 **Definition:** The **System Entity Structure (SES)** is a _structural knowledge representation scheme_ introduced by **Zeigler**. It contains knowledge of **decomposition**, **taxonomy**, and  **coupling of a system**. In combination with **a Model Base (MB)**, it supports different concepts for system modeling, investigating design alternatives, reusing good designs, and collaborative modeling. 
 
@@ -39,3 +39,9 @@ same name, they need to have the same variables and isomorphic partial trees. Th
 ### 4) A discrete mathematical model using the Automata Theory:
 
 ### 5) A hybird automata model for analog-digital systems (i.e., mixed discrete and continuous systems):
+
+## References:
+* [Body of Knowledge for Modeling and Simulation Tuncer Ören Bernard P. Zeigler Andreas Tolk Editors A Handbook by the Society for Modeling and Simulation, Springer](https://link.springer.com/book/10.1007/978-3-031-11085-6).
+* [Software Engineering Design by Carlos Otero](https://www.amazon.com/Software-Engineering-Design-Practice-Applied/dp/1439851689).
+* [Guide to Discrete Mathematics, Springer](https://link.springer.com/book/10.1007/978-3-030-81588-2)
+* [Discrete Mathematical Structures by Bernard Kolman](https://www.amazon.com/Discrete-Mathematical-Structures-Pearson-International/dp/1292024844).
