@@ -1,4 +1,4 @@
-# Project-talk
+# <img src="https://github.com/Electrostat-Lab/Project-talk/blob/master/assets/engineering-wrench-svgrepo-com.svg" width=60 height=60 /> Project-talk
 A repository housing useful models to neatly describe any project in an interview or a conference.
 
 Essentially, when describing any project for someone for the first time, it requires a simplification model to proceed to the ideas, thus far.
