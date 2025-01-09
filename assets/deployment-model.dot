@@ -1,0 +1,39 @@
+digraph DeploymentModel {
+    rankdir=LR;
+    node [shape=rectangle, style=filled, color=lightblue];
+
+    subgraph cluster_0 {
+        label="Development Environment";
+        style=dashed;
+        color=blue;
+        "Developer Workstation" -> "Source Code Repository";
+        "Source Code Repository" -> "CI/CD Pipeline";
+    }
+
+    subgraph cluster_1 {
+        label="Testing Environment";
+        style=dashed;
+        color=green;
+        "CI/CD Pipeline" -> "Testing Server";
+        "Testing Server" -> "Automated Tests";
+    }
+
+    subgraph cluster_2 {
+        label="Staging Environment";
+        style=dashed;
+        color=orange;
+        "CI/CD Pipeline" -> "Staging Server";
+        "Staging Server" -> "Manual QA";
+    }
+
+    subgraph cluster_3 {
+        label="Production Environment";
+        style=dashed;
+        color=red;
+        "CI/CD Pipeline" -> "Production Server";
+        "Production Server" -> "User Base";
+    }
+
+    "User Base" -> "Feedback Loop" [label="Feedback"];
+    "Feedback Loop" -> "Developer Workstation" [label="Improvements"];
+}
