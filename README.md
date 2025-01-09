@@ -9,6 +9,6 @@ Essentially, when describing any project for someone for the first time, it requ
 1) Defining **a physical model for the problem and its components**.
 2) Defining **a physical model for the solution and its components; such that the solution subset components would map to the problem components based on the function theory**.
 3) Defining **a physical non-mathematical model for the project based on problem definition and analysis**.
-4) Defining **a deployment model for the project for the business and companies domain to be used in advertisements and non-technical conferences**.
+4) Defining **a deployment model for the project for the business and companies domain to be used in advertisements and non-technical conferences based on the SES Framework (System-Entity-Structure Framework)**.
 5) Defining **a discrete mathematical model using the Automata Theory**.
 6) Defining **a hybird automata model for analog-digital systems**.
