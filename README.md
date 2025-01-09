@@ -12,3 +12,6 @@ Essentially, when describing any project for someone for the first time, it requ
 4) Defining **a deployment model for the project for the business and companies domain to be used in advertisements and non-technical conferences based on the SES Framework (System-Entity-Structure Framework)**.
 5) Defining **a discrete mathematical model using the Automata Theory**.
 6) Defining **a hybird automata model for analog-digital systems**.
+
+### 1) A generic physical model for the problem and its components: 
+
