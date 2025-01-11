@@ -22,11 +22,11 @@ Essentially, when describing any project for someone for the first time, it requ
 
 **Definition:** The **System Entity Structure (SES)** is a _structural knowledge representation scheme_ introduced by **Zeigler**. It contains knowledge of **decomposition**, **taxonomy**, and  **coupling of a system**. In combination with **a Model Base (MB)**, it supports different concepts for system modeling, investigating design alternatives, reusing good designs, and collaborative modeling. 
 
-<img src="https://github.com/Electrostat-Lab/Project-talk/blob/master/assets/SES-procedure-model.png"/>
+<img src="https://electrostat-lab.github.io/Project-talk/assets/SES-procedure-model.png"/>
 
 Figure 1.6 shows the general procedure model of an **SES/MB-based M&S** according to **Pawletta et al**. Possible configurations of a system or a family of systems are analyzed. That means, basic dynamic components, their relations, and parameter settings are identified. Dynamic components are modeled or implemented as reusable basic systems with _defined input and output interfaces_ and _organized in a MB_. The possible system structures and parameter settings are modeled with an SES, which specifies **formal links to basic systems in the MB**. 
 
-<img src="https://github.com/Electrostat-Lab/Project-talk/blob/master/assets/SES-example.png"/>
+<img src="https://electrostat-lab.github.io/Project-talk/assets/SES-example.png"/>
 
 Figure 1.7 shows an example of an SES with associated MB. In the application phase, executable models are generated with **transformation methods** such as **pruning** and **build**. Based on defined objectives, _the pruning method derives a unique system configuration from the set of possible configurations_. The result of pruning is called **Pruned Entity Structure (PES)**. Based on the information in the PES, the build method generates an Executable Model using basic systems from the MB.
 
