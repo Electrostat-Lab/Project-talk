@@ -37,6 +37,18 @@ This type of modelling is the predominant model in the software engineering indu
 ## 2) A physical deployment model:
 <img src="https://electrostat-lab.github.io/Project-talk/assets/deployment-model.dot.svg"/>
 
+> [!NOTE]
+> When referring to a deployment model, one should ask a crucial question "What is meant by a `deployment`, and what are the objects to be deployed so far?".
+> The answer depends on the context. However, most models will entail defining "deployment model" as the lifecycle to deploy a binary of a project and test it on a specified platform.
+
+A deployment model for a project is commonly used in simple mainly non-technical contexts or as an introductory model for a technical context before delving into much more technical stuff and engineering details related to the problem and the solution domains.
+
+A deployment model could be composed of the following components, commonly managed by _a CI/CD container pipeline_:
+1) Development Environment.
+2) Testing Environment.
+3) Staging Environment.
+4) Production Environment.
+
 ## 3) A system model for the business and companies' domains based on SES-Framework with emphasis on deployment:
 > Copied, by Thorsten Pawletta.
 
