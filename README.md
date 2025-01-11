@@ -13,6 +13,7 @@ Essentially, when describing any project for someone for the first time, it requ
 5) Defining **a hybird automata model for analog-digital systems**.
 
 ## 1) A generic physical model for the problem and its components: 
+<img src="https://electrostat-lab.github.io/Project-talk/assets/problem-solution-model.dot.svg"/>
 
 ## 2) A physical model for the solution and its components:
 
