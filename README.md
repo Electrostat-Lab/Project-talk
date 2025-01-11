@@ -6,8 +6,8 @@ Essentially, when describing any project for someone for the first time, it requ
 **Vision:** While having a talk with a friend of mine, I stumbled a little while describing what I've achieved so far; I attribute this for the reason that most of my projects involve complex subsets of system engineering that is why they are bulky to describe just in an instant. To know from where you should begin describing a project, you should follow some standard algorithm in thinking. It might be first to describe the **problem** itself, then **a simple non-mathematical physical model**; eventually a most in-depth **system-model**, and if you are in a technical interview, the final model will be **a software architectural model**. **An automata model** is rarely required. However, it would serve a good model in conferences.
 
 ## Outline:
-1) Defining **a physical model for the problem and its components**.
-2) Defining **a physical model for the solution and its components; such that the solution subset components would map to the problem components based on the function theory**.
+1) Defining **a physical model for the solution and its components; such that the solution subset components would map to the problem components based on the function theory**.
+2) Defining **a physical deployment**.
 3) Defining **a system model for the project for the business and companies domain to be used in advertisements and non-technical conferences based on the SES Framework (System-Entity-Structure Framework)**.
 4) Defining **a discrete mathematical model using the Automata Theory**.
 5) Defining **a hybird automata model for analog-digital systems**.
@@ -15,7 +15,8 @@ Essentially, when describing any project for someone for the first time, it requ
 ## 1) A generic physical model for the problem and its components: 
 <img src="https://electrostat-lab.github.io/Project-talk/assets/problem-solution-model.dot.svg"/>
 
-## 2) A physical model for the solution and its components:
+## 2) A physical deployment model:
+<img src="https://electrostat-lab.github.io/Project-talk/assets/deployment-model.dot.svg"/>
 
 ## 3) A system model for the business and companies' domains based on SES-Framework with emphasis on deployment:
 > Copied, by Thorsten Pawletta.
