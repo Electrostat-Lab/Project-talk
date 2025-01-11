@@ -20,7 +20,7 @@ This type of modelling is the predominant model in the software engineering indu
 > [!NOTE]
 > Essentially, the model is based on the _Set Theory, Relations among Sets, and the Function Theory_, the following sequential activity is attained:
 > 1) A problem domain is synthesized, and _an empty problems' set_ is constructed; $$P = \\{p | p\ is\ a\ problem\ X\\}$$.
-> 2) The problem set is decomposed further into proper subsets of problems; $$P = \\{S_p | S_p is a proper subset of problems \land S_p \subset P \\}$$.
+> 2) The problem set is decomposed further into proper subsets of problems; $$P = \\{S_p | S_p \subset P \\}$$.
 > 3) Problems are synthesized from a _specialized domain (e.g., Railway Engineering - Medicine - Embedded Engineering - Aerospace Engineering ...)_.
 > 4) Properties are synthesized by examining the problems from a specified specialized domain, and assigned to the _subsets of problems_.
 > 5) Problems, previously synthesized and used actively to derive the problems' properties, are grouped into the subsets based on some common properties for the destined proper subsets $$S_p$$.
