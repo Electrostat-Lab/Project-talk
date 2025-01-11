@@ -93,3 +93,4 @@ stateDiagram
 * [Software Engineering Design by Carlos Otero](https://www.amazon.com/Software-Engineering-Design-Practice-Applied/dp/1439851689).
 * [Guide to Discrete Mathematics, Springer](https://link.springer.com/book/10.1007/978-3-030-81588-2)
 * [Discrete Mathematical Structures by Bernard Kolman](https://www.amazon.com/Discrete-Mathematical-Structures-Pearson-International/dp/1292024844).
+* [NATO ASI Series - Verification of Digital and Hybrid Systems, The Theory of Hybrid Automata, Springer](https://link.springer.com/chapter/10.1007/978-3-642-59615-5_13).
