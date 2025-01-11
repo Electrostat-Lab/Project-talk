@@ -27,9 +27,9 @@ This type of modelling is the predominant model in the software engineering indu
 > 6) Solutions are synthesized; such that to provide mappings to the problems from the proper subsets $$S_p$$ based on examining the common properties of these problems.
 > 7) The type of mappings is described in advance if necessary (e.g., Surjection - Injection - Bijection).
 > 8) Types of mappings are described as follows:
->     1) **Surjective Mapping (Onto)**: For each solution, there exists **at least** one problem. 
->     2) **Injective Mapping (One-to-one)**: For each problem, there exists **only** one solution.
->     3) **Bijective Mapping (Onto and one-to-one)**: For each problem, there exists **only** one solution, and for each solution, there exists **at least** one problem.
+>     1) **Surjective Mapping (Onto)**: For each solution in the solution domain (system co-domain), there exists **at least** one problem. 
+>     2) **Injective Mapping (One-to-one)**: For each problem in the problem domain, there exists **only** one solution.
+>     3) **Bijective Mapping (Onto and one-to-one)**: For each problem in the problem domain, there exists **only** one solution, and for each solution in the solution domain (co-domain), there exists **at least** one problem.
 > 9) Solutions' properties are synthesized based on examining the derived solutions, and proper subsets are constructed.
 > 10) Solutions are grouped into proper subsets, and solutions' properties are assigned to these subsets.
 > 11) A final software architectural paradigm is reached to pattern match it with the common industrial paradigms.
