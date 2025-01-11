@@ -15,6 +15,22 @@ Essentially, when describing any project for someone for the first time, it requ
 ## 1) A generic physical model for the problem and its components: 
 <img src="https://electrostat-lab.github.io/Project-talk/assets/problem-solution-model.dot.svg"/>
 
+This type of modelling is the predominant model in the software engineering industry especially in forward software engineering lifecycles; where a software specification document is required to fulfill the problem, the project goal, the criteria and the standardization of the engineering maneuvers utilized, and finally a software engineering paradigm model.
+
+> [!NOTE]
+> Essentially, the model is based on the _Set Theory, Relations among Sets, and the Function Theory_, the following sequential activity is attained:
+> 1) A problem domain is synthesized, and _an empty problems' set_ is constructed; $$P = \\{p | p\ is\ a\ problem\ X\\}$$.
+> 2) The problem set is decomposed further into proper subsets of problems; $$P = \\{S_p | S_p is a proper subset of problems \land S_p \subset P \\}$$.
+> 3) Problems are synthesized from a _specialized domain (e.g., Railway Engineering - Medicine - Embedded Engineering - Aerospace Engineering ...)_.
+> 4) Properties are synthesized by examining the problems from a specified specialized domain, and assigned to the _subsets of problems_.
+> 5) Problems, previously synthesized and used actively to derive the problems' properties, are grouped into the subsets based on some common properties for the destined proper subsets $$S_p$$.
+> 6) Problems
+> 7) Solutions are synthesized; such that to provide mappings to the problems from the proper subsets $$S_p$$ based on examining the common properties of these problems.
+> 8) The type of mappings is described in advance if necessary (e.g., Surjection - Injection - Bijection).
+> 9) Solutions' properties are synthesized based on examining the derived solutions, and proper subsets are constructed.
+> 10) Solutions are grouped into proper subsets, and solutions' properties are assigned to these subsets.
+> 11) A final software architectural paradigm is reached to pattern match it with the common industrial paradigms.
+
 ## 2) A physical deployment model:
 <img src="https://electrostat-lab.github.io/Project-talk/assets/deployment-model.dot.svg"/>
 
