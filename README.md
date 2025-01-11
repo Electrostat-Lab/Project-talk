@@ -12,11 +12,11 @@ Essentially, when describing any project for someone for the first time, it requ
 4) Defining **a discrete mathematical model using the Automata Theory**.
 5) Defining **a hybird automata model for analog-digital systems**.
 
-### 1) A generic physical model for the problem and its components: 
+## 1) A generic physical model for the problem and its components: 
 
-### 2) A physical model for the solution and its components:
+## 2) A physical model for the solution and its components:
 
-### 3) A system model for the business and companies' domains based on SES-Framework with emphasis on deployment:
+## 3) A system model for the business and companies' domains based on SES-Framework with emphasis on deployment:
 > Copied, by Thorsten Pawletta.
 
 **Definition:** The **System Entity Structure (SES)** is a _structural knowledge representation scheme_ introduced by **Zeigler**. It contains knowledge of **decomposition**, **taxonomy**, and  **coupling of a system**. In combination with **a Model Base (MB)**, it supports different concepts for system modeling, investigating design alternatives, reusing good designs, and collaborative modeling. 
@@ -38,7 +38,7 @@ Figure 1.7 shows an example of an SES with associated MB. In the application pha
 > [!NOTE]
 > There are numerous additional SES concepts, such as using the SES as a general ontology for data modeling [18], the specification of abstraction hierarchies and time granularities for families of systems [19], interfaces for automated, reactive pruning [15], methods for the pruning of deep hierarchies of certain node type combinations [16], or the combination with performance metrics to evaluate and select the best possible system configurations.
 
-### 4) A discrete mathematical model using the Automata Theory:
+## 4) A discrete mathematical model using the Automata Theory:
 
 ```mermaid
 stateDiagram
@@ -62,7 +62,7 @@ stateDiagram
 > The language of the machine $$L(M)$$ is the set of recognizable strings of the automata; a recognizable string results from the successive execution of the transition functions with a subset of inputs beginning from the start state until an accepting state is being hit by the automata process; hence the string is recognized; therefore, $$L(M) = \\{s_n | n \in N \land s_n \in \Sigma\^* \land \Sigma\^* = \\{\sigma_{0}\sigma_{1}\sigma_{2}...\sigma_{k} | k, i \in N \land \sigma_{i} \in \Sigma\\}\\}$$ is the language of the automata $$M$$ and the set of all acceptable strings over the set of transition functions collection $$\Delta(S, \Sigma\^\*)$$; where $$S \subseteq Q$$.
 
 
-### 5) A hybird automata model for analog-digital systems (i.e., mixed discrete and continuous systems):
+## 5) A hybird automata model for analog-digital systems (i.e., mixed discrete and continuous systems):
 > WIP
 
 ## References:
