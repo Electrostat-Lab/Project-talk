@@ -40,7 +40,30 @@ Figure 1.7 shows an example of an SES with associated MB. In the application pha
 
 ### 4) A discrete mathematical model using the Automata Theory:
 
+```mermaid
+stateDiagram
+    state System_Initialization
+    state System_Validation
+    state User_Input
+    state System_Response
+    [*] --> System_Initialization
+
+    System_Initialization --> System_Validation: System_Input
+    System_Validation --> User_Input: System_Input
+    User_Input --> System_Response: System_Input
+    System_Response --> [*]: System_Input
+```
+> [!NOTE]
+> The preceding figure is a generalized example for describing some project steps using the abstract mathematical model, the finite-state automata model. A formalization of the model could be attained using the following:
+> * Let, $$Q = \\{System_{Initialization}, System_{Validation}, User_{Input}, System_{Response}\\}$$ be the set of active states, and $$q_0 = \\{System_{Initialization}\\}$$ be the start or the initial state, $$\Sigma = \\{i_0, i_1, i_2, i_3\\}$$ be the set of transition inputs, $$\delta: Q \times \Sigma \rightarrow Q$$ be the transition function, $$F = \\{System_{Response}\\}$$ be the set of accepting states; such that $$f \in Q$$, and $$F \subseteq Q$$.
+> * Then, a Machine $$M$$ could be constructed as a quintuple sequence of members; $$M = (Q, \Sigma, \delta, q_0, F)$$, and in this particular example, it would be:
+> $$M = (\\{System_{Initialization}, System_{Validation}, User_{Input}, System_{Response}\\}, \\{i_0, i_1, i_2, i_3\\}, \delta: Q \times \Sigma \rightarrow Q, \\{System_{Initialization}\\}, \\{System_{Response}\\})$$, and if $$S \subseteq Q$$ and $$\Sigma^\* = \\{\sigma_{0}\sigma_{1}\sigma_{2}...\sigma_{k} | k, i \in N \land \sigma_{i} \in \Sigma\\}$$ is a closure from $$\Sigma$$; then, $$\Delta(S, \Sigma^\*) = \\{\delta(q\_i, \sigma\_{i+1})\_n | \delta(q_i, \sigma_{i+1})_n \in Q \land i \in N\\} = \\{q_n | q_n \in Q \land n \in N\\}$$ is the set of the range (or the co-domain) of the function $$\delta$$.
+>
+> The language of the machine $$L(M)$$ is the set of recognizable strings of the automata; a recognizable string results from the successive execution of the transition functions with a subset of inputs beginning from the start state until an accepting state is being hit by the automata process; hence the string is recognized; therefore, $$L(M) = \\{s_n | n \in N \land s_n \in \Sigma\^* \land \Sigma\^* = \\{\sigma_{0}\sigma_{1}\sigma_{2}...\sigma_{k} | k, i \in N \land \sigma_{i} \in \Sigma\\}\\}$$ is the language of the automata $$M$$ and the set of all acceptable strings over the set of transition functions collection $$\Delta(S, \Sigma\^\*)$$; where $$S \subseteq Q$$.
+
+
 ### 5) A hybird automata model for analog-digital systems (i.e., mixed discrete and continuous systems):
+> WIP
 
 ## References:
 * [Body of Knowledge for Modeling and Simulation Tuncer Ören Bernard P. Zeigler Andreas Tolk Editors A Handbook by the Society for Modeling and Simulation, Springer](https://link.springer.com/book/10.1007/978-3-031-11085-6).
