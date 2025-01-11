@@ -2,4 +2,4 @@
 
 sudo apt install graphviz
 cd ./assets/
-dot -Tpng *.dot -O
+dot -Tsvg *.dot -O
