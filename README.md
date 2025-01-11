@@ -7,7 +7,7 @@ Essentially, when describing any project for someone for the first time, it requ
 
 ## Outline:
 1) Defining **a physical model for the solution and its components; such that the solution subset components would map to the problem components based on the function theory**.
-2) Defining **a physical deployment**.
+2) Defining **a physical deployment model based on a pruning strategy**.
 3) Defining **a system model for the project for the business and companies domain to be used in advertisements and non-technical conferences based on the SES Framework (System-Entity-Structure Framework)**.
 4) Defining **a discrete mathematical model using the Automata Theory**.
 5) Defining **a hybird automata model for analog-digital systems**.
