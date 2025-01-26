@@ -107,7 +107,7 @@ stateDiagram
 ## Examples for projects explained using the Pruned System-Entity-Structure deployment or physical model: 
 | Project | _Model_ | _Explanation_ |
 |--------------------|----------------|---------------|
-| **Serial4j Framework** | <img src="https://github.com/Electrostat-Lab/Project-talk/blob/master/assets/serial4j-model.jpeg" width=500 height=680/>| **Components**: <br/> 1) MCU. 2) Video Terminal (GNU/Linux Machine in this case). 3) Byte stream channel (i.e., physically a cable and a serial driver module, for instance CH340 or MAX232). 4) Kernel userspace APIs. <br/> **Algorithms utilized**: 1) Pipe and filter filesystem algorithms. 2) Data framing algorithms (i.e., Buffered byte streams algorithms). </br> |
+| **Serial4j Framework** | <img src="https://github.com/Electrostat-Lab/Project-talk/blob/master/assets/serial4j-model.jpeg"/>| **Components**: <br/> 1) MCU. 2) Video Terminal (GNU/Linux Machine in this case). 3) Byte stream channel (i.e., physically a cable and a serial driver module, for instance CH340 or MAX232). 4) Kernel userspace APIs. <br/> **Algorithms utilized**: 1) Pipe and filter filesystem algorithms. 2) Data framing algorithms (i.e., Buffered byte streams algorithms). </br> |
 | **jSnapLoader API** | WIP | |
 | **Jector API** | WIP | |
 | **Articular-ES Framework** | WIP | |
