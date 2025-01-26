@@ -104,6 +104,17 @@ stateDiagram
 ## 5) A hybird automata model for analog-digital systems (i.e., mixed discrete and continuous systems):
 > WIP
 
+## Examples for projects explained using the Pruned System-Entity-Structure deployment or physical model: 
+| Project | _Model_ | _Explanation_ |
+|--------------------|----------------|---------------|
+| **Serial4j Framework** | | |
+| **jSnapLoader API** | WIP | |
+| **Jector API** | WIP | |
+| **Articular-ES Framework** | WIP | |
+| **Automata4j API** | WIP | |
+| **ElectroMIO Framework** | WIP | |
+| **ElectroKIO Framework** | WIP | |
+
 ## References:
 * [Body of Knowledge for Modeling and Simulation Tuncer Ören Bernard P. Zeigler Andreas Tolk Editors A Handbook by the Society for Modeling and Simulation, Springer](https://link.springer.com/book/10.1007/978-3-031-11085-6).
 * [Software Engineering Design by Carlos Otero](https://www.amazon.com/Software-Engineering-Design-Practice-Applied/dp/1439851689).
